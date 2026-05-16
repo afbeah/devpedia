@@ -16,7 +16,7 @@ O mesmo também pode ser movido para outra pasta e isso fará com que esse arqui
 O arquivo modificado pode ser retornado ao estado original, para essa finalidade usamos o comando:
 
 ```bash
-git checkout
+git checkout -- nome_do_arquivo
 ```
 Após utilizar comando, o arquivo sai do staging. Caso seja feita uma próxima alteração, ele entra em staging novamente. 
 
@@ -24,7 +24,7 @@ Esse comando serve *antes* de adicionar a alteração.
 
 ## 03. Desfazendo TODAS as alterações
 
-Com o comando:
+Para alterações locais podemos utilizar o comando:
 
 ```bash
 git reset
