@@ -40,3 +40,35 @@ git checkout -b <nome>
 ```
 
 ## 04. Unindo branches
+
+O código de dois branches distintos pode ser unido pelo comando:
+
+```bash
+git merge <nome>
+```
+
+Outro comando para a lista dos mais usados. Normalmente é por meio dele que recebemos as atualizações de outros devs.
+
+## 05. Deletando Branches
+
+Podemos deletar um branch com a flag **-D** ou **--Delete**.
+
+Não é comum deletar um branch, normalmente guardamos o histórico do trabalho. 
+
+Geralmente se usa o delete quando o branch foi criaso errado. 
+
+## 06. Encontrando Branches
+
+Branches novos são criados a todo momento e o seu git pode não estar mapeando eles.
+
+Com o comando: 
+
+```bash
+git fetch
+```
+
+Você é atualizado de todos os branches e tags que ainda não estão reconhecidos por você.
+
+Este comando é útil para utilizar o branch de algum outro dev do time. 
+
+O git fetch busca todos os commits do repositório remoto que ainda não estão no seu repositório local. Ele atualiza o seu "espelho" do repo remoto, mas não faz alterações no seu código local. Ou seja, ele traz as atualizalões para que você possa visualizá-las, mas não integra essas mudanças ao seu trabalho atual.
