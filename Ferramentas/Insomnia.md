@@ -6,7 +6,7 @@ Imagine que você esta criando um site e quer garantir que quando alguém clica 
 
 ## O que você pode fazer com Insomnia?
 
-- Enviar Pedidos: É possível enviar requisições a um servidor para ver como ele responde. Esses pedidos podem ser diferentes tipos, como pegar informações (*GET*) ou enviar os dados (*POST*);
+- Enviar Pedidos: É possível enviar requisições a um servidor para verificar como ele responde. Esses pedidos podem ser diferentes tipos, como pegar informações (*GET*) ou enviar os dados (*POST*);
 - Ver Respostas: Quando envia uma requisição, o servidor responde. O insomnia mostra essa resposta para que você possa ver se tudo está funcionando corretamente;
 - Testar Autenticação: As vezes, você precisa se identificar antes de fazer uma requisição, como fazer uma requisição, como fazer login num site. O insomnia pode ajudar a testar esses processos de autenticação;
 - Trabalhar com diferentes ambientes: Se você está testando seu programa em diferentes situações, o insomnia ajuda a gerenciar essas diferenças.
