@@ -4,10 +4,10 @@
 
 ## Para que serve?
 
-- Hospedar sites e aplicativos (*ex: Kubernetes Engine*)
-- Armazenar dados na nuvem (*ex: Big Query*)
+- Hospedar aplicações e serviços (*ex: GKE, Cloud Run, App Engine*)
+- Armazenar dados na nuvem (*ex: BigQuery*)
 - Processar e analisar dados (*ex: Dataflow*)
-- Machine Learning e IA(*ex: Vertex AI*)
+- Machine Learning e Iinteligência Artificial (*ex: Vertex AI*)
 - Segurança e gerenciamento de redes (*ex: VPC*)
 
 ## Como funciona?
@@ -17,3 +17,20 @@
 - Os serviços serão cobrados conforme o uso;
 - É possível configurar bancos de dados e etc.
 
+## Principais serviços da GCP 
+
+- Compute Engine → Máquinas virtuais;
+- GKE → Kubernetes gerenciado;
+- Cloud Storage → Armazenamento de arquivos;
+- BigQuery → Análise de grandes volumes de dados;
+- Cloud Run → Execução de containers;
+- Vertex AI → Inteligência Artificial.
+
+# Conceitos relacionados
+
+- Cloud Computing;
+- Containers;
+- Kubernetes;
+- DevOps;
+- Escalabilidade;
+- Microsserviços.
