@@ -6,7 +6,7 @@ Nx é um build system e gerenciador de monorepo criado pela empresa *NRWL*, com 
 
 ## Para que serve NX?
 
-- Organizar multíplos apps e bibliotecas em um repositório;
+- Organizar múltiplos apps e bibliotecas em um repositório;
 - Controlar dependências entre os módulos;
 - Otimizar builds e testes (só roda o que foi alterado);
 - Padronizar geração de códigos com generators (nx generate component);
@@ -19,4 +19,4 @@ Nx é um build system e gerenciador de monorepo criado pela empresa *NRWL*, com 
 - Frontend: React, Angular, Vue, Next.js;
 - Backend: Nest.js, Express, Node.js;
 - Mobile: React Native;
-- Outros: Java, Go, Rust (plugins ou costumização)
+- Outros: Java, Go, Rust (plugins ou personalização)
