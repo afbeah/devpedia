@@ -41,3 +41,13 @@ Ao invés de adivinhar o erro, você pode:
 -> Reduz frustrações ao lidar com bugs difíceis; 
 
 -> Torna seu desenvolvimento mais profissional e eficiente.
+
+## Tipos comuns de bugs
+
+- Erros de sintaxe;
+- Erros de lógica;
+- Variáveis com valores inexperados;
+- Loops infinitos;
+- Problemas de integração com as APIs;
+- Falhas de autenticação;
+- Problemas de estato da aplicação.
