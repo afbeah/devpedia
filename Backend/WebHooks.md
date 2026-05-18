@@ -4,7 +4,7 @@ Um Webhook é uma forma de uma aplicação enviar informações *automaticamente
 
 Pensa nele como um *"retorno de chamada"* (*callback*) baseado em eventos. 
 
-Em vez de ficar checando ("polling") se algo novo aconteceu (como mensagens, pagamentos ou atualizações), o webhook *avisa instantaneamente* seu sistema quando o evento ocorre. 
+Em vez de um sistema ficar verificando constantemente ("polling") se algo novo aconteceu (como mensagens, pagamentos ou atualizações), o webhook *avisa instantaneamente* seu sistema quando o evento ocorre. 
 
 ## Para que serve?
 
@@ -14,19 +14,19 @@ Exemplos
 
   1. Notificações em tempo real
      
-     -> Quando um pagamento é confirmado. (notificação banco)
+     -> Quando um pagamento é confirmado. (notificação bancária)
      
-     -> Quando um formulário é preenchido. (typeform enviando dados)
+     -> Quando um formulário é preenchido. (Typeform enviando dados)
 
   2. Integração entre apps
      
-     -> Github envia um alerta para o slack quando alguém abre um *pull request*
+     -> Github envia um alerta para o Slack quando alguém abre um *pull request*
      
      -> Quando um pedido é feito no Shopify, um webhook pode disparar um e-mail de confirmação.
 
   3. Chatbots e mensagens
 
-     -> Serviços como whatsapp ou telegram usam webhooks para repassar mensagens recebidas ao seu sistema.
+     -> Serviços como Whatsapp ou Telegram usam webhooks para repassar mensagens recebidas ao seu sistema.
 
 
 ## Como funciona?
@@ -48,4 +48,16 @@ Seu sistema recebe os dados
         ↓
 Pedido é aprovado automaticamente
 ```
-      
+
+> IPC:
+>
+> Webhook ≠ API.
+> 
+> API
+> Realiza uma requisição pra buscar dados
+> ("Me dê os novos pedidos")
+>
+> Webhook
+>
+> O servidor envia os dados quando algo relevante acontece
+> ("Ei, tem um pedido novo")
