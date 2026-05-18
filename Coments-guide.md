@@ -25,7 +25,7 @@
    - //
 
 3. html
-   - <!-- -->
+   - <.!-- --> (retirar o .)
 
 4. Python
    - Para linha única: #
