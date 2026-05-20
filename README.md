@@ -37,6 +37,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Regex](./Fundamentals/Regex.md)
 - [SDK](./Fundamentals/SDK.md)
 - [Variavel](./Fundamentals/Variavel.md)
+- [XML](./Fundamentals/XML.md)
   
 ### Git
 - [Git](./Git)
