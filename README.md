@@ -47,6 +47,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 
 ### Golang
 - [Concurrency](./Go/Concurrency.md)
+- [Context](./Go/Context.md)
 - [Defer](./Go/Defer.md)
 
 ### Telegram Bots
