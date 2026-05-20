@@ -32,6 +32,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ### Fundamentals
 - [Debbuging](./Fundamentals/Debbuging.md)
 - [JSON](./Fundamentals/JSON.md)
+- [Variavel](./Fundalmentals/Variavel.md)
   
 ### Git
 - [Git](./Git)
