@@ -45,7 +45,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 
 ### Testing
 - [Gock](./Testing/Gock.md)
-- [unit-testings](./Testings/unit-testings.md)
+- [unit-testings](./Testing/unit-testings.md)
 
 
 ## 02. Objetivos
