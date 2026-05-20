@@ -35,6 +35,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Heap](./Fundamentals/Heap.md)
 - [Hook](./Fundamentals/Hook.md)
 - [JSON](./Fundamentals/JSON.md)
+- [Operador Ternário](./Fundamentals/Operador-ternario.md)
 - [Programação Funcional](./Fundamentals/Programacao-funcional.md)
 - [Regex](./Fundamentals/Regex.md)
 - [SDK](./Fundamentals/SDK.md)
