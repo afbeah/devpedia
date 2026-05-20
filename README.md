@@ -34,6 +34,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Debbuging](./Fundamentals/Debbuging.md)
 - [Hook](./Fundamentals/Hook.md)
 - [JSON](./Fundamentals/JSON.md)
+- [Regex](./Fundamentals/Regex.md)
 - [SDK](./Fundamentals/SDK.md)
 - [Variavel](./Fundamentals/Variavel.md)
   
