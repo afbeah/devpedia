@@ -8,6 +8,8 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ## 01. Conteúdos
 
 ### Backend
+- [Protocolo HTTP](./Backend/Protocolo-http)
+- [Request Flow](./Backend/Request-flow)
 - [WebHooks](./Backend/WebHooks.md)
 
 ## Ferramentas
