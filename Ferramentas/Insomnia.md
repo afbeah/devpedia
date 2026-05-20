@@ -18,3 +18,19 @@ Imagine que você esta criando um site e quer garantir que quando alguém clica 
 - Simplifica a depuração: Se algo der errado, você pode facilmente ver o que está acontecendo e corrigir o problema.
 
 > Ajuda Devs a criar, organizar e testar solicitações de API de forma eficiente.
+
+## Interface Principal
+
+- Workspace: Um espaço de trabalho onde é possível organizar as solicitações;
+- Collections: Dentro do workspace, é possível criar coleções para organizar suas solicitações relacionadas por projeto ou finalidade;
+- Requests: Dentro de uma coleção é possível criar solicitações individuais para diferentes endpoints da API.
+
+## Criando e testando ua solicitação de API
+
+1. Nova solicitação: Clique em "New Request" de dê um nome à solicitação;
+2. Selecione o Método HTTP: Escolha o métod adequado para a solicitação (GET, POST, PUT, DELETE, etc);
+3. URL do endpoint: Insira o URL do endpoint da API que você deseja testar;
+4. Headers: Adicione quaisquer cabeçalhos necessários, como `Content-Type`, `Authorization`, etc;
+5. Body: Se a solicitação requer um corpo, você pdoe inserir o conteúdo no formato JSON, XML ou outro formato suportado;
+6. Authentication: Configura a autenticação, se necessário. O insomnia suporta vários métodos de autenticação, incluindo basic auth, bearer, token, oauth 2.0, etc;
+7. Enviar solicitação: Clique em "send" para enviar a solicitação. O insomnia exiborá a resposta da API, incluindo o status http, cabeçalhos e corpo da resposta.
