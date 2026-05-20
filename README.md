@@ -7,6 +7,32 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 
 ## 01. Conteúdos
 
+### Backend
+- [WebHook](./WebHooks.md)
+
+## Ferramentas
+- [Docker](./Ferramentas/Docker.md)
+- [GCP](./Ferramentas/GCP.md)
+- [GKE](./Ferramentas/GKE.md)
+- [Grafana](./Ferramentas/Grafana.md)
+- [Insomnia](./Ferramentas/Insomnia.md)
+- [Kubernetes](./Ferramentas/Kubernetes.md)
+- [NPM](./Ferramentas/NPM.md)
+- [NX](./Ferramentas/NX.md)
+- [Prometheus](./Ferramentas/Prometheus.md)
+- [Robo3T](./Ferramentas/Robo3T.md)
+- [Swagger](./Ferramentas/Swagger.md)
+- [Terraform](./Ferramentas/Terraform.md)
+- [Yarn](./Ferramentas/Yarn.md)
+- [cURL](./Ferramentas/cURL.md)
+
+### Frontend
+- [Typeof](./Frontend/Typeof.md)
+
+### Fundamentals
+- [Debbuging](./Fundamentals/Debbuging.md)
+- [JSON](./Fundamentals/JSON)
+  
 ### Git
 - [Git](./Git)
 
@@ -16,6 +42,10 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ### Telegram Bots
 - [Inline Keyboards](./Telegram-bots/Inline-Keyboards.md)
 - [Landing-Page](./Telegram-bots/Landing-Page.md)
+
+### Testing
+- [Gock](./Testing/Gock.md)
+- [unit-testings](./Testings/unit-testings.md)
 
 
 ## 02. Objetivos
