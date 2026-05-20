@@ -46,7 +46,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Git](./Git)
 
 ### Golang
-- Em construção
+- [Concurrency](./Go/Concurrency.md)
 
 ### Telegram Bots
 - [Inline Keyboards](./Telegram-bots/Inline-Keyboards.md)
