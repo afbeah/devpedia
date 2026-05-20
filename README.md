@@ -47,6 +47,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 
 ### Golang
 - [Concurrency](./Go/Concurrency.md)
+- [Defer](./Go/Defer.md)
 
 ### Telegram Bots
 - [Inline Keyboards](./Telegram-bots/Inline-Keyboards.md)
