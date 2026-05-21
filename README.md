@@ -18,6 +18,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [WebHooks](./Backend/WebHooks.md)
 
 ## DevOps
+- [Deploy](./DevOps/Deploy.md)
 - [Pipeline](./DevOps/Pipeline.md)
 
 ## Ferramentas
