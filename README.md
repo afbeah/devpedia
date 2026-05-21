@@ -49,7 +49,14 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [XML](./Fundamentals/XML.md)
   
 ### Git
-- [Git](./Git)
+- [Branches](./Git/Branches.md)
+- [Fundamentos](./Git/Fundamentos.md)
+- [Remoto](./Git/Remoto.md)
+- [Stash](./Git/Stash.md)
+- [Tags](./Git/Tags.md)
+- [avançado](./Git/avançado.md)
+- [manipulação-de-arquivos](./Git/manipulação-de-arquivos.md)
+- [primeiros-passos](./Git/primeiros-passos.md)
 
 ### Golang
 - [Concurrency](./Go/Concurrency.md)
