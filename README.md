@@ -49,13 +49,17 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [XML](./Fundamentals/XML.md)
   
 ### Git
+- [.gitignore](./Git/.gitignore.md)
 - [Branches](./Git/Branches.md)
+- [Draft](./Git/Draft.md)
 - [Fundamentos](./Git/Fundamentos.md)
+- [Monorepo](./Git/Monorepo.md)
 - [Remoto](./Git/Remoto.md)
 - [Stash](./Git/Stash.md)
 - [Tags](./Git/Tags.md)
 - [avançado](./Git/avançado.md)
 - [manipulação-de-arquivos](./Git/manipulação-de-arquivos.md)
+- [no-verify](./Git/no-verify.md)
 - [primeiros-passos](./Git/primeiros-passos.md)
 
 ### Golang
