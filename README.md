@@ -16,6 +16,9 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Request Flow](./Backend/Request-flow.md)
 - [WebHooks](./Backend/WebHooks.md)
 
+## DevOps
+- [Pipeline](./DevOps/Pipeline.md)
+
 ## Ferramentas
 - [Docker](./Ferramentas/Docker.md)
 - [GCP](./Ferramentas/GCP.md)
