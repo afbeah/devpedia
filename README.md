@@ -14,6 +14,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Idempotência](./Backend/Idempotencia.md)
 - [Protocolo HTTP](./Backend/Protocolo-http.md)
 - [Request Flow](./Backend/Request-flow.md)
+- [Request-response](./Backend/Request-response.md)
 - [WebHooks](./Backend/WebHooks.md)
 
 ## DevOps
