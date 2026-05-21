@@ -8,6 +8,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ## 01. Conteúdos
 
 ### Backend
+- [Api de Regras](./Backend/Api-regras.md)
 - [Cors](./Backend/Cors.md)
 - [Protocolo HTTP](./Backend/Protocolo-http.md)
 - [Request Flow](./Backend/Request-flow.md)
