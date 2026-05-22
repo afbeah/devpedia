@@ -52,7 +52,6 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 
 ### Fundamentals
 - [Blockchain](./Fundamentals/Blockchain.md)
-- [Debbuging](./Fundamentals/Debbuging.md)
 - [Heap](./Fundamentals/Heap.md)
 - [Hook](./Fundamentals/Hook.md)
 - [JSON](./Fundamentals/JSON.md)
