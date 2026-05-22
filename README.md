@@ -24,6 +24,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Trace](./DevOps/Trace.md)
 
 ## Ferramentas
+- [Debug](./Ferramentas/Debug.md)
 - [Docker](./Ferramentas/Docker.md)
 - [GCP](./Ferramentas/GCP.md)
 - [GKE](./Ferramentas/GKE.md)
