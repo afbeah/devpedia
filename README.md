@@ -35,6 +35,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [NX](./Ferramentas/NX.md)
 - [Prometheus](./Ferramentas/Prometheus.md)
 - [Robo3T](./Ferramentas/Robo3T.md)
+- [Script](./Ferramentas/Scripts.md)
 - [Swagger](./Ferramentas/Swagger.md)
 - [Terraform](./Ferramentas/Terraform.md)
 - [Yarn](./Ferramentas/Yarn.md)
