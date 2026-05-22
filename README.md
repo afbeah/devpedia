@@ -23,6 +23,9 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Pipeline](./DevOps/Pipeline.md)
 - [Trace](./DevOps/Trace.md)
 
+## Engineering
+- [OKR](./Engineering/OKR.md)
+
 ## Ferramentas
 - [Debug](./Ferramentas/Debug.md)
 - [Docker](./Ferramentas/Docker.md)
