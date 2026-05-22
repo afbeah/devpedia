@@ -21,6 +21,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Ci/Cd](./DevOps/Ci-Cd.md)
 - [Deploy](./DevOps/Deploy.md)
 - [Pipeline](./DevOps/Pipeline.md)
+- [Trace](./DevOps/Trace.md)
 
 ## Ferramentas
 - [Docker](./Ferramentas/Docker.md)
