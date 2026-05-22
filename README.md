@@ -31,6 +31,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Grafana](./Ferramentas/Grafana.md)
 - [Insomnia](./Ferramentas/Insomnia.md)
 - [Kubernetes](./Ferramentas/Kubernetes.md)
+- [Lint](./Ferramentas/Lint.md)
 - [Logs](./Ferramentas/Logs.md)
 - [NPM](./Ferramentas/NPM.md)
 - [NX](./Ferramentas/NX.md)
