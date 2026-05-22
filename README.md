@@ -76,6 +76,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Concurrency](./Go/Concurrency.md)
 - [Context](./Go/Context.md)
 - [Defer](./Go/Defer.md)
+- [Vendor](./Go/Vendor.md)
 
 ### Telegram Bots
 - [Inline Keyboards](./Telegram-bots/Inline-Keyboards.md)
