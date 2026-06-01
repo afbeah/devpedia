@@ -100,3 +100,15 @@ Organizar conhecimento técnico de forma prática, acessível e versionada, perm
 ## 03. Status
 
 📚 Em constante evolução.
+
+---
+
+## Fontes de Aprendizado
+
+Os conteúdos deste repositório são construídos a partir de:
+
+- Estudos independentes
+- Documentações oficiais
+- Cursos e treinamentos
+- Projetos pessoais
+- Experiência prática em ambientes corporativos
