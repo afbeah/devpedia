@@ -17,6 +17,9 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Request-response](./Backend/Request-response.md)
 - [WebHooks](./Backend/WebHooks.md)
 
+## Database
+- [Query](./Database/Query.md)
+
 ## DevOps
 - [Ci/Cd](./DevOps/Ci-Cd.md)
 - [Containers](./DevOps/Containers.md)
@@ -28,6 +31,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [OKR](./Engineering/OKR.md)
 
 ## Ferramentas
+- [BigQuery](./Ferramentas/BigQuery.md)
 - [Debug](./Ferramentas/Debug.md)
 - [Docker](./Ferramentas/Docker.md)
 - [GCP](./Ferramentas/GCP.md)
