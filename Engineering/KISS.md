@@ -1,0 +1,225 @@
+# KISS?
+
+*KISS* significa:
+
+**Keep It Simple, Stupid** 
+
+ou, de forma mais amigável:
+
+**Mantenha as coisas simples.**
+
+O princípio defende que uma solução deve ser a mais simples possível para resolver um problema.
+
+Quanto mais complexo um código se torna, maior a chance de:
+
+- bugs;
+- dificuldades de manutenção;
+- dificuldade de entendimento;
+- aumento do custo de desenvolvimento.
+
+## A ideia central
+
+Quando existem duas soluções que resolvem o mesmo problema:
+
+- escolha a mais simples;
+- evite complexidade desnecessária;
+- não implemente funcionalidades antes de precisar delas.
+
+### Exemplo
+
+Imagine que você precisa verificar se um usuário é maior de idade.
+
+Solução simples
+
+```java 
+public boolean isAdult(int age) {
+    return age >= 18;
+}
+```
+Solução complexa
+
+```java
+public boolean isAdult(int age) {
+
+    Integer minimumAge = Integer.valueOf(18);
+
+    if(age >= minimumAge) {
+        return true;
+    }
+
+    return false;
+}
+```
+
+O resultado é exatamente o mesmo.
+
+Mas a primeira solução é mais simples, mais legível e mais fácil de manter.
+
+### Outro exemplo
+
+Você precisa ordenar uma lista.
+
+**KISS**
+
+```java
+Collections.sort(users);
+```
+
+**Não KISS**
+
+Criar:
+
+```txt
+QuickSort
+MergeSort
+HeapSort
+```
+
+na mão para ordenar dez registros.
+
+Tecnicamente funciona.
+
+Mas adiciona complexidade sem necessidade.
+
+## KISS e Arquitetura
+
+Um erro comum é pensar:
+
+*"Quanto mais sofisticado, melhor."*
+
+Na prática, muitas vezes acontece o contrário.
+
+Por exemplo:
+
+Você precisa criar uma API simples.
+
+Solução adequada
+
+```
+Controller
+↓
+Service
+↓
+Repository
+```
+
+Solução exagerada
+
+```java
+Controller
+↓
+Facade
+↓
+Application Service
+↓
+Domain Service
+↓
+Factory
+↓
+Strategy
+↓
+Repository
+```
+
+para um CRUD com três telas.
+
+A segunda arquitetura pode ser tecnicamente correta, mas não necessariamente faz sentido para o problema.
+
+## Benefícios do KISS
+
+1. Legibilidade: Código simples é mais fácil de entender.
+
+2. Manutenção: Menos partes significa menos pontos de falha.
+
+3. Menos bugs: Quanto mais complexidade, maior a chance de erros.
+
+4. Onboarding mais rápido: Novos desenvolvedores conseguem entender o projeto com mais facilidade.
+
+### KISS não significa código pobre
+
+Esse é um erro comum.
+
+KISS não significa:
+
+```txt
+Código desorganizado
+Sem padrões
+Sem arquitetura
+```
+
+Significa apenas:
+
+> Não adicionar complexidade sem necessidade.
+
+## KISS x SOLID
+
+Eles não competem.
+
+Na verdade, se complementam.
+
+### SOLID
+
+Ajuda a estruturar sistemas de forma organizada.
+
+### KISS
+
+Ajuda a evitar que essa estrutura fique complexa demais.
+
+## KISS x YAGNI
+
+Outro princípio famoso é:
+
+> YAGNI — You Aren't Gonna Need It
+
+("Você não vai precisar disso.")
+
+Exemplo:
+
+```txt
+Vou criar suporte para 20 tipos de pagamento.
+```
+
+Mesmo tendo apenas:
+
+```txt
+PIX
+```
+
+implementado hoje.
+
+YAGNI diz:
+
+> Faça apenas o que é necessário agora.
+
+KISS diz:
+
+> E faça da forma mais simples possível.
+
+### Exemplo no mundo real
+
+Imagine uma API para cadastro de livros.
+
+Você pode fazer:
+
+```txt
+BookController
+BookService
+BookRepository
+```
+
+e resolver o problema.
+
+Ou criar dezenas de camadas, abstrações e padrões antes mesmo de existir necessidade.
+
+O KISS recomenda começar simples e evoluir conforme o sistema cresce.
+
+## Resumo
+
+O princípio KISS defende que soluções simples são geralmente melhores do que soluções complexas.
+
+Ao desenvolver software:
+
+- prefira clareza;
+- evite abstrações desnecessárias;
+- resolva o problema da forma mais simples possível;
+- adicione complexidade apenas quando houver uma necessidade real.
