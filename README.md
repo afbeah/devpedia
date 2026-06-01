@@ -32,6 +32,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [DRY](./Engineering/DRY.md)
 - [KISS](./Engineering/KISS.md)
 - [OKR](./Engineering/OKR.md)
+- [Repository](./Engineering/Repository.md)
 - [SOLID](./Engineering/SOLID.md)
 - [YAGNI](./Engineering/YAGNI.md)
 
