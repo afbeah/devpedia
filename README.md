@@ -28,7 +28,12 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Trace](./DevOps/Trace.md)
 
 ## Engineering
+- [Clean Code](./Engineering/CleanCode.md)
+- [DRY](./Engineering/DRY.md)
+- [KISS](./Engineering/KISS.md)
 - [OKR](./Engineering/OKR.md)
+- [SOLID](./Engineering/SOLID.md)
+- [YAGNI](./Engineering/YAGNI.md)
 
 ## Ferramentas
 - [BigQuery](./Ferramentas/BigQuery.md)
