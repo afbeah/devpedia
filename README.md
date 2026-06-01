@@ -21,6 +21,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Query](./Database/Query.md)
 
 ## DevOps
+- [Automação](./DevOps/Automacao.md)
 - [Ci/Cd](./DevOps/Ci-Cd.md)
 - [Containers](./DevOps/Containers.md)
 - [Deploy](./DevOps/Deploy.md)
