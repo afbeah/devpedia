@@ -53,6 +53,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Prometheus](./Ferramentas/Prometheus.md)
 - [Robo3T](./Ferramentas/Robo3T.md)
 - [Script](./Ferramentas/Scripts.md)
+- [Service Now](./Ferramentas/Service-Now.md)
 - [Swagger](./Ferramentas/Swagger.md)
 - [Terraform](./Ferramentas/Terraform.md)
 - [Yarn](./Ferramentas/Yarn.md)
