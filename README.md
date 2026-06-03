@@ -100,6 +100,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Landing-Page](./Telegram-bots/Landing-Page.md)
 
 ### Testing
+- [Cypres](./Testing/Cypress.md)
 - [Gock](./Testing/Gock.md)
 - [unit-testings](./Testing/unit-testings.md)
 
