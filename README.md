@@ -26,8 +26,11 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Containers](./DevOps/Containers.md)
 - [Deploy](./DevOps/Deploy.md)
 - [Fila](./DevOps/Fila.md)
+- [Job](./DevOps/Job.md)
+- [Log](./DevOps/Logs.md)
 - [Mensageria](./DevOps/Mensageria.md)
 - [Pipeline](./DevOps/Pipeline.md)
+- [Scheduler](./DevOps/Scheduler.md)
 - [Trace](./DevOps/Trace.md)
 - [Worker](./DevOps/Worker.md)
 
