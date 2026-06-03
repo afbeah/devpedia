@@ -96,7 +96,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 
 ### Processamento Assíncrono
 - [Automação](./Processamento-assincrono/Automacao.md)
-- [Fila](./Processamento-assincrono/Fila.md)
+- [Fila](./Processamento-assincrono/Filas.md)
 - [Job](./Processamento-assincrono/Job.md)
 - [Log](./Processamento-assincrono/Logs.md)
 - [Mensageria](./Processamento-assincrono/Mensageria.md)
