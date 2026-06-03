@@ -30,6 +30,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Log](./DevOps/Logs.md)
 - [Mensageria](./DevOps/Mensageria.md)
 - [Pipeline](./DevOps/Pipeline.md)
+- [Retry](./DevOps/Retry.md)
 - [Scheduler](./DevOps/Scheduler.md)
 - [Trace](./DevOps/Trace.md)
 - [Worker](./DevOps/Worker.md)
