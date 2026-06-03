@@ -21,19 +21,11 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Query](./Database/Query.md)
 
 ## DevOps
-- [Automação](./DevOps/Automacao.md)
 - [Ci/Cd](./DevOps/Ci-Cd.md)
 - [Containers](./DevOps/Containers.md)
 - [Deploy](./DevOps/Deploy.md)
-- [Fila](./DevOps/Fila.md)
-- [Job](./DevOps/Job.md)
-- [Log](./DevOps/Logs.md)
-- [Mensageria](./DevOps/Mensageria.md)
 - [Pipeline](./DevOps/Pipeline.md)
-- [Retry](./DevOps/Retry.md)
-- [Scheduler](./DevOps/Scheduler.md)
 - [Trace](./DevOps/Trace.md)
-- [Worker](./DevOps/Worker.md)
 
 ## Engineering
 - [Clean Code](./Engineering/CleanCode.md)
@@ -101,6 +93,16 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Context](./Go/Context.md)
 - [Defer](./Go/Defer.md)
 - [Vendor](./Go/Vendor.md)
+
+### Processamento Assíncrono
+- [Automação](./Processamento-assincrono/Automacao.md)
+- [Fila](./Processamento-assincrono/Fila.md)
+- [Job](./Processamento-assincrono/Job.md)
+- [Log](./Processamento-assincrono/Logs.md)
+- [Mensageria](./Processamento-assincrono/Mensageria.md)
+- [Retry](./Processamento-assincrono/Retry.md)
+- [Scheduler](./Processamento-assincrono/Scheduler.md)
+- [Worker](./Processamento-assincrono/Worker.md)
 
 ### Telegram Bots
 - [Inline Keyboards](./Telegram-bots/Inline-Keyboards.md)
