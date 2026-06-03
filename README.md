@@ -25,8 +25,11 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Ci/Cd](./DevOps/Ci-Cd.md)
 - [Containers](./DevOps/Containers.md)
 - [Deploy](./DevOps/Deploy.md)
+- [Fila](./DevOps/Fila.md)
+- [Mensageria](./DevOps/Mensageria.md)
 - [Pipeline](./DevOps/Pipeline.md)
 - [Trace](./DevOps/Trace.md)
+- [Worker](./DevOps/Worker.md)
 
 ## Engineering
 - [Clean Code](./Engineering/CleanCode.md)
