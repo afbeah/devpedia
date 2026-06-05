@@ -111,6 +111,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ### Testing
 - [Cypress](./Testing/Cypress.md)
 - [Gock](./Testing/Gock.md)
+- [Mock](./Testing/Mock.md)
 - [unit-testings](./Testing/unit-testings.md)
 
 
