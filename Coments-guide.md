@@ -30,4 +30,7 @@
 4. Python
    - Para linha única: #
    - Para bloco: "'...'" ou "..."
+
+5. Css
+   - /* comentario */ 
     
