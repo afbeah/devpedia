@@ -11,7 +11,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Arquitetura de Software](./Arquitetura/01.Arquitecture-Software.md)
 - [Modelagem](./Arquitetura/02.Modelagem.md)
 - [MVC](./Arquitetura/03.MVC.md)
-- [Clean Architeture](./Arquitetura/04.Clean-Architeture.md)
+- [Clean Architeture](./Arquitetura/04.Clean-Architecture.md)
 - [Monolito](./Arquitetura/05.Monolito.md)
 - [Microsserviço](./Arquitetura/06.Microsserviços.md)
 - [DDD](./Arquiterura/07.DDD.md)
