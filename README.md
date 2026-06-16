@@ -7,6 +7,9 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 
 ## 01. Conteúdos
 
+### Arquitetura
+- [Arquitetura de Software](./Arquitetura/Arquitetura-Software.md)
+
 ### Backend
 - [Api de Regras](./Backend/Api-regras.md)
 - [Cors](./Backend/Cors.md)
