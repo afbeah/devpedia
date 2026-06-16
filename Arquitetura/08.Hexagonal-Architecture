@@ -1,0 +1,333 @@
+# Hexagonal Architecture
+
+Hexagonal Architecture, também conhecida como Ports and Adapters, é um modelo arquitetural criado por Alistair Cockburn com o objetivo de reduzir o acoplamento entre a regra de negócio e as tecnologias externas.
+
+Seu principal objetivo é proteger o domínio da aplicação.
+
+Em outras palavras:
+
+> A regra de negócio não deve depender de banco de dados, APIs, frameworks ou interfaces externas.
+
+## O problema que a Hexagonal Architecture resolve
+
+Em muitos sistemas tradicionais, a lógica de negócio depende diretamente da infraestrutura.
+
+Exemplo:
+
+```txt id="x2y7qm"
+Regra de negócio
+↓
+Banco de Dados
+↓
+Framework
+↓
+API Externa
+```
+
+Quando uma dessas tecnologias muda, a aplicação inteira pode ser impactada.
+
+A Hexagonal Architecture busca inverter essa dependência.
+
+## O conceito de Ports and Adapters
+
+A arquitetura é baseada em dois elementos principais:
+
+### Ports
+
+Representam contratos ou interfaces.
+
+Exemplo:
+
+```go id="h4x3ep"
+type UserRepository interface {
+    Save(user User) error
+}
+```
+
+O domínio conhece apenas a interface.
+
+Não conhece a implementação.
+
+### Adapters
+
+São as implementações concretas dessas interfaces.
+
+Exemplo:
+
+```go id="p7z8dn"
+type PostgresUserRepository struct {}
+```
+
+ou
+
+```go id="w9t2ca"
+type MongoUserRepository struct {}
+```
+
+O domínio continua utilizando a mesma interface.
+
+## Por que o nome Hexagonal?
+
+O formato hexagonal é apenas uma representação visual.
+
+A ideia é mostrar que a aplicação pode possuir múltiplas entradas e saídas.
+
+Exemplo:
+
+```txt id="z6x1vp"
+API REST
+
+CLI
+
+Mensageria
+
+Banco
+
+Fila
+
+Scheduler
+```
+
+Todos esses elementos se conectam ao domínio através de portas e adaptadores.
+
+## Estrutura simplificada
+
+```txt id="j4c8rn"
+Adapters
+↓
+Ports
+↓
+Domínio
+↓
+Ports
+↓
+Adapters
+```
+
+O domínio fica no centro.
+
+## Exemplo prático
+
+Imagine um caso de uso:
+
+```txt id="m3v5pb"
+Cadastrar Usuário
+```
+
+O domínio define:
+
+```go id="c8r4yt"
+type UserRepository interface {
+    Save(user User) error
+}
+```
+
+Implementação PostgreSQL:
+
+```go id="k7p2mx"
+type PostgresUserRepository struct {}
+```
+
+Implementação MongoDB:
+
+```go id="b5d8fv"
+type MongoUserRepository struct {}
+```
+
+O domínio continua funcionando independentemente do banco escolhido.
+
+## Entradas e Saídas
+
+### Entrada (Driving Adapter)
+
+São elementos que acionam a aplicação.
+
+Exemplos:
+
+* API REST;
+* GraphQL;
+* CLI;
+* Scheduler;
+* Mensageria.
+
+Fluxo:
+
+```txt id="t7w1zb"
+Controller
+↓
+Use Case
+```
+
+### Saída (Driven Adapter)
+
+São elementos utilizados pela aplicação.
+
+Exemplos:
+
+* Banco de dados;
+* APIs externas;
+* Filas;
+* Serviços externos.
+
+Fluxo:
+
+```txt id="y9r4xm"
+Use Case
+↓
+Repository
+↓
+Banco
+```
+
+## Hexagonal Architecture e Repository
+
+O padrão Repository é amplamente utilizado.
+
+Exemplo:
+
+```go id="e2k8jp"
+type OrderRepository interface {
+    Save(order Order) error
+}
+```
+
+O domínio depende da interface.
+
+A infraestrutura fornece a implementação.
+
+## Hexagonal Architecture e Testes
+
+Uma das maiores vantagens é a facilidade para testes.
+
+Exemplo:
+
+Produção:
+
+```txt id="f4m7na"
+PostgresRepository
+```
+
+Teste:
+
+```txt id="g6x2wr"
+MockRepository
+```
+
+Como o domínio depende apenas da interface, trocar implementações é simples.
+
+## Benefícios
+
+### Baixo acoplamento
+
+Mudanças na infraestrutura afetam menos o domínio.
+
+### Alta testabilidade
+
+Facilidade para utilizar Mocks.
+
+### Flexibilidade
+
+Troca de tecnologias sem alterar regras de negócio.
+
+### Organização
+
+Separação clara de responsabilidades.
+
+## Desafios
+
+### Curva de aprendizado
+
+Os conceitos podem parecer complexos inicialmente.
+
+### Mais abstrações
+
+Pequenos projetos podem acabar com estruturas desnecessárias.
+
+### Maior quantidade de arquivos
+
+A separação de responsabilidades gera mais componentes.
+
+## Hexagonal Architecture x Clean Architecture
+
+Os dois modelos possuem objetivos semelhantes.
+
+### Clean Architecture
+
+Foco em:
+
+```txt id="d5v3nu"
+Camadas
+↓
+Dependências apontando para dentro
+```
+
+### Hexagonal Architecture
+
+Foco em:
+
+```txt id="p8r6xh"
+Ports
+↓
+Adapters
+↓
+Isolamento do domínio
+```
+
+Na prática, muitos projetos utilizam conceitos dos dois modelos ao mesmo tempo.
+
+## Hexagonal Architecture e DDD
+
+DDD e Hexagonal costumam aparecer juntos.
+
+DDD define:
+
+```txt id="v7n4cy"
+O domínio
+```
+
+Hexagonal define:
+
+```txt id="q3m8ha"
+Como proteger o domínio
+```
+
+Fluxo:
+
+```txt id="n2y7kw"
+DDD
+↓
+Domínio
+↓
+Hexagonal
+↓
+Infraestrutura isolada
+```
+
+## Quando utilizar?
+
+Hexagonal Architecture costuma ser utilizada em:
+
+* APIs;
+* sistemas corporativos;
+* microsserviços;
+* aplicações com muitas integrações.
+
+## Quando evitar?
+
+Projetos muito pequenos podem não se beneficiar da complexidade adicional.
+
+Exemplos:
+
+```txt id="m8z5tc"
+Landing Pages
+
+Protótipos
+
+Sistemas simples
+```
+
+## Resumo
+
+Hexagonal Architecture é um modelo arquitetural que organiza aplicações utilizando Ports e Adapters para proteger a regra de negócio da infraestrutura.
+
+Seu principal objetivo é reduzir acoplamento, aumentar testabilidade e permitir que tecnologias externas sejam substituídas sem impactar o domínio da aplicação.
