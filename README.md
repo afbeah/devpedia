@@ -18,7 +18,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Hexagonal Architecture](./Arquitetura/08.Hexagonal-Architecture.md)
 - [Event-Driven Architecture](./Arquitetura/09.Event-Driven-Architecture.md)
 - [CQRS](./Arquitetura/10.CQRS.md)
-- [Designe Patterns](./Arquitetura/11.Design-Patterns.md)
+- [Designe Patterns](./Arquitetura/11.Designe-Patterns.md)
 - [System Designe](./Arquitetura/12.Designe-Patterns.md)
   
 ### Backend
