@@ -8,8 +8,19 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ## 01. Conteúdos
 
 ### Arquitetura
-- [Arquitetura de Software](./Arquitetura/Arquitetura-Software.md)
-
+- [Arquitetura de Software](./Arquitetura/01.Arquitetura-Software.md)
+- [Modelagem](./Arquitetura/02.Modelagem.md)
+- [MVC](./Arquitetura/03.MVC.md)
+- [Clean Architeture](./Arquitetura/04.Clean-Architeture.md)
+- [Monolito](./Arquitetura/05.Monolito.md)
+- [Microsserviço](./Arquitetura/06.Microsserviços.md)
+- [DDD](./Arquiterura/07.DDD.md)
+- [Hexagonal Architeture](./Arquitetura/08.Hexagonal-Architeture.md)
+- [Event-Driven Architeture](./Arquitetura/09.Event-Driven-Architeture.md)
+- [CQRS](./Arquitetura/10.CQRS.md)
+- [Designe Patterns](./Arquitetura/11.Design-Patterns.md)
+- [System Designe](./Arquitetura/12.Designe-Patterns.md)
+  
 ### Backend
 - [Api de Regras](./Backend/Api-regras.md)
 - [Cors](./Backend/Cors.md)
