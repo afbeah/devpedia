@@ -18,6 +18,9 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [WebHooks](./Backend/WebHooks.md)
 
 ## Database
+- [Data Warehouse](./Database/Data-Wharehouse.md)
+- [ELT](./Database/ELT.md)
+- [ETL](./Database/ETL.md)
 - [Query](./Database/Query.md)
 
 ## DevOps
