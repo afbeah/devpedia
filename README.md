@@ -35,10 +35,24 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [SaaS](./Business/SaaS.md)
 
 ## Database
+- [Data Lake](./Database/Data-Lake.md)
 - [Data Warehouse](./Database/Data-Warehouse.md)
+- [Deadlock](./Database/Deadlock.md)
 - [ELT](./Database/ELT.md)
 - [ETL](./Database/ETL.md)
+- [Foreign-Key](./Database/Foreign-Key.md)
+- [Index](./Database/Index.md)
+- [JOIN](./Database/JOIN.md)
+- [Lock](./Database/Lock.md)
+- [Normalização](./Database/Normalização.md)
+- [OLAP](./Database/OLAP.md)
+- [OLTP](./Database/OLTP.md)
+- [Primary Key](./Database/Primary-Key.md)
 - [Query](./Database/Query.md)
+- [Stored Procedure](./Database/Stored-Procedure.md)
+- [Transaction](./Database/Transaction.md)
+- [Trigger](./Database/Trigger.md)
+- [View](./Database/View.md)
 
 ## DevOps
 - [Ci/Cd](./DevOps/Ci-Cd.md)
