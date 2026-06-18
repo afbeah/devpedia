@@ -34,7 +34,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ### Business
 - [SaaS](./Business/SaaS.md)
 
-## Database
+### Database
 - [Data Lake](./Database/Data-Lake.md)
 - [Data Warehouse](./Database/Data-Warehouse.md)
 - [Deadlock](./Database/Deadlock.md)
@@ -54,14 +54,24 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Trigger](./Database/Trigger.md)
 - [View](./Database/View.md)
 
-## DevOps
+### DevOps
 - [Ci/Cd](./DevOps/Ci-Cd.md)
 - [Containers](./DevOps/Containers.md)
 - [Deploy](./DevOps/Deploy.md)
 - [Pipeline](./DevOps/Pipeline.md)
 - [Trace](./DevOps/Trace.md)
 
-## Engineering
+### Distributed Systems
+- [Cache](./Distributed-Systems/01.Cache.md)
+- [Redis](./Distributed-Systems/02.Redis.md)
+- [Load Balancer](./Distributed-Systems/03.Load-Balancer.md)
+- [API_Gateway](./Distributed-Systems/04.API-Gateway.md)
+- [Service Discovery](./Distributed-Systems/05.Service-Discovery.md)
+- [Circuit Breaker](./Distributed-Systems/06.Circuit-Breaker.md)
+- [CAP Theorem](./Distributed-Systems/07.CAP-Theorem.md)
+- [Eventual Consistency](./Distributed-Systems/08.Eventual-Consistency.md)
+
+### Engineering
 - [Clean Code](./Engineering/CleanCode.md)
 - [DRY](./Engineering/DRY.md)
 - [KISS](./Engineering/KISS.md)
@@ -70,7 +80,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [SOLID](./Engineering/SOLID.md)
 - [YAGNI](./Engineering/YAGNI.md)
 
-## Ferramentas
+### Ferramentas
 - [BigQuery](./Ferramentas/BigQuery.md)
 - [Debug](./Ferramentas/Debug.md)
 - [Docker](./Ferramentas/Docker.md)
