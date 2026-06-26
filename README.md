@@ -8,7 +8,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 ## 01. Conteúdos
 
 ### Arquitetura
-- [Arquitetura de Software](./Arquitetura/01.Arquitecture-Software.md)
+- [Arquitetura de Software](./Arquitetura/01.Arquitetura-Software.md)
 - [Modelagem](./Arquitetura/02.Modelagem.md)
 - [MVC](./Arquitetura/03.MVC.md)
 - [Clean Architecture](./Arquitetura/04.Clean-Architecture.md)
