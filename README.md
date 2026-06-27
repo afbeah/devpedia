@@ -162,7 +162,7 @@ Durante o desenvolvimento, os artigos podem ser utilizados como referência ráp
 - [Stash](./Git/Stash.md)
 - [Tags](./Git/Tags.md)
 - [avançado](./Git/avançado.md)
-- [covenções](./Git/convencções.md)
+- [convenções](./Git/convenções.md)
 - [manipulação-de-arquivos](./Git/manipulação-de-arquivos.md)
 - [no-verify](./Git/no-verify.md)
 - [primeiros-passos](./Git/primeiros-passos.md)
