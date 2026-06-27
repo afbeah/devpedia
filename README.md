@@ -1,13 +1,44 @@
-# DevPedia
+# 📚 DevPedia
 
-Central de estudos, anotações e documentação técnica criada para organizar conhecimentos adquiridos durante minha jornada em Engenharia de Software.
+> Uma base de conhecimento técnico sobre Engenharia de Software.
 
-O objetivo deste repositório é servir como uma base de consulta rápida sobre tecnologias, conceitos, ferramentas e boas práticas utilizadas no desenvolvimento de software.
+O **DevPedia** é uma base de conhecimento criada para organizar conceitos, arquiteturas, ferramentas, tecnologias e boas práticas utilizadas no desenvolvimento moderno de software.
 
+O projeto nasceu durante minha jornada em Engenharia de Software com o objetivo de transformar anotações pessoais em um material técnico de estudo e consulta, organizado em trilhas de aprendizagem.
 
-## 01. Conteúdos
+Hoje, o DevPedia reúne conteúdos sobre Backend, Arquitetura, Banco de Dados, DevOps, Sistemas Distribuídos, Engenharia de Software, Ferramentas e diversos outros temas fundamentais para desenvolvedores.
 
-### Arquitetura
+---
+
+# 🎯 Objetivo
+
+O DevPedia tem como objetivo:
+
+* organizar conhecimento técnico de forma estruturada;
+* servir como material de estudo;
+* facilitar consultas rápidas durante o desenvolvimento;
+* conectar conceitos relacionados através de trilhas de aprendizagem;
+* evoluir continuamente conforme novos conhecimentos são adquiridos.
+
+---
+
+# 📖 Como utilizar
+
+O repositório pode ser utilizado de duas formas.
+
+### Como material de estudo
+
+Os conteúdos estão organizados por áreas da Engenharia de Software, permitindo uma evolução gradual do aprendizado.
+
+### Como material de consulta
+
+Durante o desenvolvimento, os artigos podem ser utilizados como referência rápida para revisar conceitos, arquiteturas, tecnologias e boas práticas.
+
+---
+
+# 🗂️ Trilhas de Conhecimento
+
+## Arquitetura
 - [Arquitetura de Software](./Arquitetura/01.Arquitetura-Software.md)
 - [Modelagem](./Arquitetura/02.Modelagem.md)
 - [MVC](./Arquitetura/03.MVC.md)
@@ -21,7 +52,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Designe Patterns](./Arquitetura/11.Designe-Patterns.md)
 - [System Design](./Arquitetura/12.System-Design.md)
   
-### Backend
+## Backend
 - [Api de Regras](./Backend/Api-regras.md)
 - [Cors](./Backend/Cors.md)
 - [Crud](./Backend/Crud.md)
@@ -31,10 +62,10 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Request-response](./Backend/Request-response.md)
 - [WebHooks](./Backend/WebHooks.md)
 
-### Business
+## Business
 - [SaaS](./Business/SaaS.md)
 
-### Database
+## Database
 - [Data Lake](./Database/Data-Lake.md)
 - [Data Warehouse](./Database/Data-Warehouse.md)
 - [Deadlock](./Database/Deadlock.md)
@@ -54,7 +85,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Trigger](./Database/Trigger.md)
 - [View](./Database/View.md)
 
-### DevOps
+## DevOps
 - [Ci/Cd](./DevOps/Ci-Cd.md)
 - [Containers](./DevOps/Containers.md)
 - [Deploy](./DevOps/Deploy.md)
@@ -62,7 +93,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Pipeline](./DevOps/Pipeline.md)
 - [Trace](./DevOps/Trace.md)
 
-### Distributed Systems
+## Distributed Systems
 - [Cache](./Distributed-Systems/01.Cache.md)
 - [Redis](./Distributed-Systems/02.Redis.md)
 - [Load Balancer](./Distributed-Systems/03.Load-Balancer.md)
@@ -72,7 +103,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [CAP Theorem](./Distributed-Systems/07.CAP-Theorem.md)
 - [Eventual Consistency](./Distributed-Systems/08.Eventual-Consistency.md)
 
-### Engineering
+## Engineering
 - [Clean Code](./Engineering/01.Clean-Code.md)
 - [Coments Guide](./Engineering/02.Coments-Guide.md)
 - [KISS](./Engineering/03.KISS.md)
@@ -82,7 +113,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Repository](./Engineering/07.Repository.md)
 - [OKR](./Engineering/08.OKR.md)
 
-### Ferramentas
+## Ferramentas
 - [BigQuery](./Ferramentas/BigQuery.md)
 - [Debug](./Ferramentas/Debug.md)
 - [Docker](./Ferramentas/Docker.md)
@@ -104,10 +135,10 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Yarn](./Ferramentas/Yarn.md)
 - [cURL](./Ferramentas/cURL.md)
 
-### Frontend
+## Frontend
 - [Typeof](./Frontend/Typeof.md)
 
-### Fundamentals
+## Fundamentals
 - [Blockchain](./Fundamentals/Blockchain.md)
 - [Heap](./Fundamentals/Heap.md)
 - [Hook](./Fundamentals/Hook.md)
@@ -120,7 +151,7 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Variavel](./Fundamentals/Variavel.md)
 - [XML](./Fundamentals/XML.md)
   
-### Git
+## Git
 - [.gitignore](./Git/.gitignore.md)
 - [Branches](./Git/Branches.md)
 - [Draft](./Git/Draft.md)
@@ -134,13 +165,13 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [no-verify](./Git/no-verify.md)
 - [primeiros-passos](./Git/primeiros-passos.md)
 
-### Golang
+## Golang
 - [Concurrency](./Go/Concurrency.md)
 - [Context](./Go/Context.md)
 - [Defer](./Go/Defer.md)
 - [Vendor](./Go/Vendor.md)
 
-### Processamento Assíncrono
+## Processamento Assíncrono
 - [Automação](./Processamento-assincrono/Automacao.md)
 - [Fila](./Processamento-assincrono/Filas.md)
 - [Job](./Processamento-assincrono/Job.md)
@@ -150,34 +181,43 @@ O objetivo deste repositório é servir como uma base de consulta rápida sobre 
 - [Scheduler](./Processamento-assincrono/Scheduler.md)
 - [Worker](./Processamento-assincrono/Worker.md)
 
-### Telegram Bots
+## Telegram Bots
 - [Inline Keyboards](./Telegram-bots/Inline-Keyboards.md)
 - [Landing-Page](./Telegram-bots/Landing-Page.md)
 
-### Testing
+## Testing
 - [Cypress](./Testing/Cypress.md)
 - [Gock](./Testing/Gock.md)
 - [Mock](./Testing/Mock.md)
 - [unit-testings](./Testing/unit-testings.md)
 
+---
 
-## 02. Objetivos
+# 🚀 Status
 
-Organizar conhecimento técnico de forma prática, acessível e versionada, permitindo consultas futuras e evolução contínua dos estudos.
+📚 Projeto em constante evolução.
 
-
-## 03. Status
-
-📚 Em constante evolução.
+Novos conteúdos são adicionados continuamente conforme novos estudos, projetos e experiências profissionais.
 
 ---
 
-## Fontes de Aprendizado
+# 📚 Fontes de Aprendizado
 
-Os conteúdos deste repositório são construídos a partir de:
+Os conteúdos são desenvolvidos a partir da combinação de diferentes fontes:
 
-- Estudos independentes
-- Documentações oficiais
-- Cursos e treinamentos
-- Projetos pessoais
-- Experiência prática em ambientes corporativos
+* Documentações oficiais;
+* Livros técnicos;
+* Cursos e treinamentos;
+* Estudos independentes;
+* Projetos pessoais;
+* Experiência prática em ambientes corporativos.
+
+---
+
+# 💡 Filosofia do Projeto
+
+O DevPedia não pretende substituir documentações oficiais.
+
+Seu objetivo é organizar conhecimento técnico de forma didática, conectando conceitos que normalmente aparecem de forma isolada em livros, cursos e documentações.
+
+Mais do que uma coleção de anotações, o DevPedia busca ser uma base de conhecimento que acompanhe a evolução contínua de um engenheiro de software.
