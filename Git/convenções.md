@@ -1,4 +1,4 @@
-#c Convenções
+# Convenções
 
 ## Comandos úteis
 
