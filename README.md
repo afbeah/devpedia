@@ -46,7 +46,7 @@ Durante o desenvolvimento, os artigos podem ser utilizados como referência ráp
 - [Vector Database](./AI-Engineering/05.Vector-Database.md)
 - [Function Calling](./AI-Engineering/06.Function-Calling.md)
 - [AI-Agent](./AI-Engineering/07.AI-Agent.md)
-- [MCP](./AI-Engineering/08.AI-Agent.md)
+- [MCP](./AI-Engineering/08.MCP.md)
 - [Context Window](./AI-Engineering/09.Context-Window.md)
 - [Inference](./AI-Engineering/10.Inference.md)
 - [Fine-Tuning](./AI-Engineering/11.Fine-Tuning.md)
