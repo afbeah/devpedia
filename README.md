@@ -38,6 +38,21 @@ Durante o desenvolvimento, os artigos podem ser utilizados como referência ráp
 
 # 🗂️ Trilhas de Conhecimento
 
+## AI-Engineering
+- [LLM](./AI-Engineering/01.LLM.md)
+- [Prompt Engineering](./AI-Engineering/02.Prompt-Engineering.md)
+- [RAG](./AI-Engineering/03.RAG.md)
+- [Embeddings](./AI-Engineering/04.Embeddings.md)
+- [Vector Database](./AI-Engineering/05.Vector-Database.md)
+- [Function Calling](./AI-Engineering/06.Function-Calling.md)
+- [AI-Agent](./AI-Engineering/07.AI-Agent.md)
+- [MCP](./AI-Engineering/08.AI-Agent.md)
+- [Context Window](./AI-Engineering/09.Context-Window.md)
+- [Inference](./AI-Engineering/10.Inference.md)
+- [Fine-Tuning](./AI-Engineering/11.Fine-Tuning.md)
+- [A2A](./AI-Engineering/12.A2A.md)
+- [AI Architecture](./AI-Engineering/13.AI-Architecture.md)
+
 ## Arquitetura
 - [Arquitetura de Software](./Arquitetura/01.Arquitetura-Software.md)
 - [Modelagem](./Arquitetura/02.Modelagem.md)
